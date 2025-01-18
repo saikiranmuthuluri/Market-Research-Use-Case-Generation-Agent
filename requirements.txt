@@ -1,0 +1,7 @@
+streamlit
+openai
+pandas
+xlsxwriter
+google-api-python-client
+kaggle
+googlesearch-python
