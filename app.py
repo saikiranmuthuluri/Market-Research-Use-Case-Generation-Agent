@@ -103,7 +103,7 @@ if st.button("Click here to Generate AI Research Report"):
         )
         try:
             response = openai.ChatCompletion.create(
-                model="gpt-4o-mini",
+                model="your GPT Model",
                 messages=[{"role": "user", "content": prompt}]
             )
             use_cases = response['choices'][0]['message']['content'].strip().split("\n")
