@@ -102,7 +102,7 @@ if st.button("Click here to Generate AI Research Report"):
             "Provide a concise list."
         )
         try:
-            response = openai.ChatCompletion.create(
+            response = client.chat.completions.create(
                 model="your GPT Model",
                 messages=[{"role": "user", "content": prompt}]
             )
