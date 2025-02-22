@@ -81,6 +81,6 @@ This project provides an interactive web application to perform market research,
   Dataset references from Kaggle.
 
 
-Output Demo Vedio :
+Output Demo Video :
       https://drive.google.com/drive/folders/1JegXlAVqf-M_ensWvWV8PAYEjOl35Gb8
 
